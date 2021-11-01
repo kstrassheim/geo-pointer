@@ -1,0 +1,199 @@
+﻿.countries
+{
+	margin: 3px 0 8px 1px;
+}
+
+.mapSelector
+{
+	margin-left:30px;
+	margin-bottom:5px;
+}
+
+.viewPortSelector
+{
+	padding:5px;
+}
+
+.viewPortSelector .viewPortSelection
+{
+	margin-right:30px;
+	color:darkorange;
+	float:left;
+}
+
+.viewPortSelected
+{
+	color:darkred;
+}
+
+.mapWrap {
+	width:auto;
+}
+
+.viewPortBox
+{
+	box-shadow: 1px 3px 3px #999;
+	-moz-box-shadow: 1px 3px 3px #999; /* Mozilla Firefox */
+	-webkit-box-shadow: 10px 10px 5px #999; /* Google Chrome */
+	border: 1px solid #CCCCCC;
+	margin-bottom:10px;
+}
+
+input.viewPortCheckBox
+{
+	margin:2px 5px auto 15px;
+}
+
+.container
+{
+	float:left;
+	margin-left:30px;
+}
+
+.controlPanel
+{
+	position:relative;
+	height:280px;
+	overflow:auto;
+}
+
+.controlPanelContainer
+{
+	
+}
+
+.desc
+{
+	font-size:12px;
+	color:#818181;
+}
+
+.viewPortSelectionDesc
+{
+	font-size:14px;
+	color:#616161;
+	font-weight:bold;
+}
+
+.viewPortDropDownDesc
+{
+	padding-top:0px;
+}
+
+.loadAllMarkersDesc
+{
+
+}
+
+.controlPanelSelectorDesc
+{
+	margin-left:10px;
+	font-size:12px;
+	color:#818181;
+	text-decoration:none;
+}
+
+.controlPanelSelectorDesc:hover
+{
+	color:#212121;
+}
+
+.inputContainer
+{
+	color:Blue;
+}
+
+.inputContainer .geoInputContainer
+{
+	clear:left;
+	margin-bottom: 5px;
+}
+
+.inputContainer .geoInputContainer .desc
+{
+	float:left;
+	width:100px !important;
+}
+
+.inputContainer .geoInputContainer .geoInput {
+	float:left;
+	padding: 5px;
+	width:300px;
+	margin-bottom: 10px;
+}
+
+
+.debug
+{
+	color:red;
+	margin-left:50px;
+}
+
+.autoTests
+{
+	color:green;
+	margin-left:50px;
+}
+.autoTests div, .debug div
+{
+	font-size:12px;
+	height: 200px;
+	overflow-y:auto;
+}
+
+.mapWrap 
+{
+	position:relative;
+}
+
+.mapWrap .map {
+
+	overflow: hidden;
+}
+
+.mapWrap .map  .marker {
+	position:absolute;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+
+
+.mapWrap .map .markerName
+{
+	position:absolute;
+	top: -30px;
+	left:-40px;
+	width:1000px;
+	overflow:visible;
+	height:20px;
+	color:darkred;
+	font-weight:bold;
+	z-index:9999;
+}
+
+.mapWrap .map  .markerName.selfset
+{
+	color:darkgreen;
+}
+
+.mapWrap .frameBorder
+{
+	border:1px solid red;
+	box-shadow: 1px 3px 3px #999;
+	-moz-box-shadow: 1px 3px 3px #999; /* Mozilla Firefox */
+	-webkit-box-shadow: 10px 10px 5px #999; /* Google Chrome */
+}
+
+.viewPortDropDown
+{
+	width:400px;
+	
+}
+
+.viewPortDropDown option
+{
+	width:380px;
+}
+

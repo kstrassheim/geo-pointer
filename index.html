@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Geo Pointer</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/screen.css" media="screen" type="text/css" />
+</head>
+<body>
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="settings.js"></script>
+	<script type="text/javascript" src="geoTests.js"></script>
+	<script type="text/javascript" src="viewPorts.js"></script>
+	<script type="text/javascript" src="maps.js"></script>
+	<script type="text/javascript" src="js/tools.js.ajaxLoader.js"></script>
+	<script type="text/javascript" src="js/tools.js.maps.js"></script>
+	
+	<script type="text/javascript">
+	
+		// start maps app on document ready
+		$(document).ready(function() { tools.js.ajaxLoader('.application', document, './images/ajax-loader.gif').runLoadingFunction(function() {tools.js.maps.run(function(){});});});
+		
+	</script>
+	
+	<div class="countries">
+		<select class='countries' onchange="tools.js.maps.reloadByCountryCode($(this).val())">
+			<script type="text/javascript">
+				jQuery.fn.sort = function() {  return this.pushStack( [].sort.apply( this, arguments ), []);  };  
+				var vps = $(viewPorts).sort(tools.js.maps.sortViewPortAscending);
+				vps.each(function() { document.write("<option value=" + this.countryCode + ">" + this.name + "</option>"); });
+			</script>
+		</select>
+	</div>
+	
+	<script type="text/javascript">
+	
+		// start maps app on document ready
+		if (settings.selectedViewPortCountryCode != null && settings.selectedViewPortCountryCode != "")
+		{
+			$(".countries").val(settings.selectedViewPortCountryCode);
+		}
+		
+	</script>
+	
+	<div class="application">
+		
+	</div>
+
+	
+</body>
+</html>
