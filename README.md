@@ -1,6 +1,8 @@
 # Geo-Pointer (2012)
 This app transforms and shows geo-data points (lon, lat) for selected countries on custom mercator maps (pixels)
 
+A demo of this site is visible at: https://geopointer.z6.web.core.windows.net/
+
 ## Abstract-Keywords
 Geo-Data, Mercator Projection, Custom Maps
 
