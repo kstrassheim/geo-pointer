@@ -1,4 +1,9 @@
-﻿.countries
+﻿body
+{
+	margin-top:30px;
+	margin-left:50px;
+}
+.countries
 {
 	margin: 3px 0 8px 1px;
 }
@@ -198,3 +203,9 @@ input.viewPortCheckBox
 	width:380px;
 }
 
+select.countries {
+	font-size:30px;
+	width:600px;
+	height:60px;
+	margin-bottom:40px;
+}
