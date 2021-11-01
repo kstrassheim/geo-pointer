@@ -171,6 +171,7 @@ input.viewPortCheckBox
 	color:darkred;
 	font-weight:bold;
 	z-index:9999;
+	font-family: Arial;
 }
 
 .mapWrap .map  .markerName.selfset
