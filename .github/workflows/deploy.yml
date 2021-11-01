@@ -36,7 +36,7 @@ jobs:
         uses: bacongobbler/azure-blob-storage-upload@v1.1.1
         with:
           # The connection string for the storage account
-          connection_string: ${{ STORAGE_CONNECTION_STRING }}
+          connection_string: ${{ secrets.STORAGE_CONNECTION_STRING }}
           # The name of the storage account container these assets will be uploaded to
           container_name: geopointer
           # The name of the directory you want to upload
